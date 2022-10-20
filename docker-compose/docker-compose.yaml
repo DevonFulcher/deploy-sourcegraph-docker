@@ -106,7 +106,7 @@ services:
       # Uncomment / update the following line when using HTTPS with custom certificates
       # - '/LOCAL/KEY/PATH.key:/sourcegraph.key'
     ports:
-      - '0.0.0.0:80:80'
+      - '0.0.0.0:80:5732'
       - '0.0.0.0:443:443'
     networks:
       - sourcegraph
